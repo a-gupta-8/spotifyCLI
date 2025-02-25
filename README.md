@@ -48,4 +48,20 @@ can affect dependencies of other programs.
 
 ### Usage
 
+... still under construction and needs testing<br><br>
+- These all currently require an active device to already be connected (spotify open on a device)
+- Requires spotify premium
+- Requires env tokens: user_id & user_secret
+To continue the current playback:
+```bash
+$ spotifyCLI play
+```
+To pause current playback:
+```bash
+$ spotifyCLI pause
+```
+To play a specific song:
+```bash
+$ spotifyCLI sing "{song_name}" #picks only the top result so might not be accurate (need to fix!)
+```
 
