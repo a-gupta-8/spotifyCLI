@@ -6,4 +6,4 @@ spotifyCLI.egg-info/
 
 .DS_Store
 
-
+.env
