@@ -2,4 +2,10 @@ spotifyCLIenv/
 
 images/
 
+__pycache__/
+
+spotifyCLI.egg-info/
+
+
+
 

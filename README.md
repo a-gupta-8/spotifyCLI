@@ -36,8 +36,16 @@ which can then be run like any other command (`mkdir` or `numpy`). The `--editab
 global path so that any changes to the CLI script doesn't need to be copied to a new file, rather its just a pointer to the changed
 file. This allows changes to the script to take effect immediately.<br><br>
 
-Once everything is setup we can just deactivate our virtual environment by running:
+
+If you run:
 ```bash
 $ deactivate
 ```
+the `venv` will deactivate and the CLI will no longer by callable, if you wish to persist the CLI even when not using the virtual
+environment, then simply skip the venv step above. But do this at your own risk as this will install the program system wide which
+can affect dependencies of other programs.
+
+
+### Usage
+
 
