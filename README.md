@@ -51,7 +51,7 @@ can affect dependencies of other programs.
 ... still under construction and needs testing<br><br>
 - These all currently require an active device to already be connected (spotify open on a device)
 - Requires spotify premium
-- Requires env tokens: user_id & user_secret
+- Requires env tokens: user_id & user_secret<br>
 To continue the current playback:
 ```bash
 $ spotifyCLI play
